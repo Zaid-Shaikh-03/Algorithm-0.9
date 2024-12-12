@@ -1,5 +1,10 @@
+import { Loader } from "./components";
 const App = () => {
-  return <div className="">hello</div>;
+  return (
+    <main className="">
+      <Loader />
+    </main>
+  );
 };
 
 export default App;
