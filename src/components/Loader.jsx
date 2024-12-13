@@ -58,7 +58,7 @@ const loader = () => {
   return (
     <div
       ref={loader}
-      className="w-full fixed"
+      className="w-full fixed z-50"
       style={{ height: `calc(100vh + 200px)` }}
     >
       <svg className="h-full w-full">
