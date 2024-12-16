@@ -18,7 +18,7 @@ const Background = () => {
     <motion.div
       variants={background}
       {...mountAnim}
-      className="w-full h-full absolute bg-black"
+      className="w-full h-full absolute bg-[#383030]"
     ></motion.div>
   );
 };
