@@ -5,7 +5,8 @@ export default {
     extend: {
       fontFamily: {
         "bai-jamjuree": ['"Bai Jamjuree"', "sans-serif"],
-        merriweather: ['"Merriweather"', "serif"],
+        sans: ["Merriweather Sans", "Arial", "sans-serif"],
+        serif: ["Merriweather", "Georgia", "serif"],
       },
       animation: {
         slider: "slider 12s linear infinite",
@@ -18,5 +19,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-textshadow")],
 };

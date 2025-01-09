@@ -86,7 +86,7 @@ const Home = () => {
               <svg
                 viewBox="0 0 284 100"
                 fill="none"
-                className="absolute -left-2 -right-1 top-0 sm:top-2"
+                className="absolute -left-2 -right-1 top-0 sm:-translate-y-2 sm:top-2"
               >
                 <motion.path
                   initial={{ pathLength: 0 }}
@@ -119,7 +119,7 @@ const Home = () => {
                   }}
                   d="M1 2.06506C7.42493 1.03877 10.9339 1.02098 17.0344 2.06506C23.1535 3.20973 26.8125 3.36225 34.071 2.06506C40.5274 0.825925 44.1495 0.757688 50.6065 2.06506C57.1835 3.03746 61.2892 3.10657 69.6473 2.06506C75.8335 0.801632 79.3321 0.569819 85.6817 2.06506C90.9003 3.2555 94.4052 3.36655 102.217 2.06506C109.457 0.667423 113.519 0.62271 120.757 2.06506C126.753 3.00843 130.704 3.15054 139.798 2.06506C146.426 0.839929 150.03 0.969369 156.333 2.06506C162.226 3.13304 165.662 3.12361 171.867 2.06506C178.047 0.885099 181.753 0.816515 188.903 2.06506C194.756 3.07787 198.279 3.06148 204.938 2.06506C210.343 0.981044 213.786 0.895249 220.972 2.06506C226.137 2.84349 228.998 2.95603 234 2.06506"
                   stroke="#FFC260"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
               </svg>
             </span>{" "}
@@ -141,7 +141,7 @@ const Home = () => {
                   }}
                   d="M0.5 16.5C46.0267 4.6891 107.342 0.243663 150.5 1.99999C193.658 3.75631 252.878 4.48306 294 12.4999"
                   stroke="#FFC260"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
               </svg>
             </span>{" "}
@@ -164,7 +164,9 @@ const Home = () => {
             className="flex flex-shrink-0 gap-8 sm:gap-20 pr-8 "
           >
             <div className="flex gap-4">
-              <p className="textGradient sm:textGradientForSm">Algorithm 9 </p>
+              <p className="textGradient sm:textGradientForSm text-shadow-lg">
+                Algorithm 9{" "}
+              </p>
               <div className="w-[70vw]  sm:w-[32vw] pt-4 sm:pt-8 pb-12 overflow-hidden">
                 <video
                   className="rounded-xl object-cover"
@@ -184,7 +186,9 @@ const Home = () => {
             className="flex flex-shrink-0 gap-8 sm:gap-20 pr-8 "
           >
             <div className="flex gap-4">
-              <p className="textGradient sm:textGradientForSm">Algorithm 9 </p>
+              <p className="textGradient sm:textGradientForSm text-shadow-lg">
+                Algorithm 9{" "}
+              </p>
               <div className="w-[70vw]  sm:w-[32vw] pt-4 sm:pt-8 pb-12overflow-hidden">
                 <video
                   className="rounded-xl object-cover"
