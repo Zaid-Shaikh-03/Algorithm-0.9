@@ -6,6 +6,7 @@ const App = () => {
       <Cursor />
       <Header />
       <Home />
+      <div className="bg-black w-full h-screen">hel</div>
     </main>
   );
 };

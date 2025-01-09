@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        "bai-jamjuree": ['"Bai Jamjuree"', "sans-serif"],
+        merriweather: ['"Merriweather"', "serif"],
+      },
       animation: {
         slider: "slider 12s linear infinite",
       },

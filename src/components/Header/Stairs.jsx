@@ -8,7 +8,7 @@ const Stair = ({ index }) => {
       variants={height}
       {...mountAnim}
       custom={4 - index}
-      className="w-[20vw] h-full bg-black"
+      className="w-[20vw] h-full bg-[#020617]"
     ></motion.div>
   );
 };
@@ -18,7 +18,7 @@ const Background = () => {
     <motion.div
       variants={background}
       {...mountAnim}
-      className="w-full h-full absolute bg-[#383030]"
+      className="w-full h-full absolute bg-[#020617]"
     ></motion.div>
   );
 };

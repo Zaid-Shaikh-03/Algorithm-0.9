@@ -16,7 +16,7 @@ const Header = () => {
   }, [menuIsOpen]);
 
   return (
-    <div className="w-full h-[10%] bg-[#E5E7DF]">
+    <div className="w-full h-[10%] bg-[#020617]">
       <div className="w-full h-full flex justify-start items-center pl-7">
         <svg
           id="logo-40"

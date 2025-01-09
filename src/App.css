@@ -7,3 +7,14 @@
 .btn::before {
   transition: width 0.5s, height 0.5s;
 }
+
+.textGradientForSm {
+  background-image: linear-gradient(to bottom, #020617 20%, #1f3078);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.textGradient {
+  background-image: linear-gradient(to bottom, #020617 2%, #1f3078);
+  -webkit-background-clip: text;
+  color: transparent;
+}
