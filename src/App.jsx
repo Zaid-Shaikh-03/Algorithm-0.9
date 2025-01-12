@@ -1,11 +1,16 @@
-import { Loader, Header, Cursor, Home } from "./components";
-import AboutUs from "./components/AboutUs";
+import {
+  Loader,
+  Header,
+  Cursor,
+  Home,
+  AboutUs,
+  TimeLine,
+  Highlights,
+} from "./components";
 import Lenis from "lenis";
 const App = () => {
-  // Initialize Lenis
   const lenis = new Lenis();
 
-  // Use requestAnimationFrame to continuously update the scroll
   function raf(time) {
     lenis.raf(time);
     requestAnimationFrame(raf);
@@ -20,6 +25,8 @@ const App = () => {
       <Header />
       <Home />
       <AboutUs />
+      <TimeLine />
+      <Highlights />
       <div className="bg-black w-full h-screen">hel</div>
     </main>
   );
